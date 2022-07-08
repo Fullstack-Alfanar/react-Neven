@@ -1,0 +1,29 @@
+table {
+    margin-top: 30px;
+    display: block;
+    thead{
+        background-color:rgb(36,41,47);
+        color: white;
+    }
+}
+td {
+    display: table-cell;
+    margin: 10px;
+    padding: 10px;
+}
+.AddBtn{
+    text-decoration: none;
+    height: 70px;
+    width: 180px;
+    margin-top: 400px;
+    margin-left: 130px;
+    background-color:rgb(36,41,47) ;
+    color: white;
+    padding-top: 10px;
+    text-align: center;
+}
+.AddBtn:hover{
+    color: rgb(129,178,154);
+    font-size:26px;
+
+}

@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+  .addLink{
+    width: 100px;
+    height: 40px;
+    text-decoration: none;
+    background-color: rgb(36,41,47);
+    color: white;
+    position: absolute;
+    bottom: 10%;
+    border: none;
+    border-radius: 15px;
+    font-size: 26px;
+    padding-left: 20px;
+}
+.addLink:hover {
+    transform: scale(1.1);
+    color:rgb(129,178,154)
+}
+
+.addLink:active {
+    transform: scale(0.9);
+}
+
+.Container {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.h2class{
+    padding-top: 200px;
+    
+}
