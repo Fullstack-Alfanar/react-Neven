@@ -1,0 +1,47 @@
+.App {
+  background-color: rgb(129,178,154);
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+header{
+  background-color: rgb(36,41,47);
+  color: white;
+  display:flex;
+  justify-content:space-between;
+  position:sticky;
+  top:0;
+  padding:0 10%;
+  h2{
+padding-top: 9px;
+  }
+  h2:hover{
+    color:rgb(129,178,154) ;
+    font-size: 26px;
+  }
+}
+
+.navBar{
+  display: flex;
+  align-items: center;
+  .link{
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+  }
+  .link:hover{
+    font-size: 24px;
+    color: rgb(129,178,154);
+    transform: scale(1.1);
+  }
+  .link:active{
+    transform: scale(0.9);
+  }
+}
